@@ -88,7 +88,7 @@ Proje kapsamında **Dark/Modern UI** konseptiyle geliştirilen yönetim paneli a
 ├── stok_analizi_sonuc.csv       # Hesaplanmış segmentler, ROP ve sipariş karar tablosu
 └── README.md                    # Proje teknik dokümantasyonu
 ```
-## 🚀 Kurulum & Çalıştırma
+## Kurulum & Çalıştırma
 ```bash
 pip install pandas numpy
 python calculate_rop.py
