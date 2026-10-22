@@ -53,7 +53,7 @@ $$\text{Sipariş Durumu} = \begin{cases} \text{"Siparis Ver"}, & \text{Mevcut St
 
 ---
 
-## 🖥️ Karar Destek Kokpiti (Power BI)
+## Karar Destek Kokpiti (Power BI)
 
 ![Power BI Dashboard](dashboard.png)
 
@@ -72,7 +72,7 @@ Proje kapsamında **Dark/Modern UI** konseptiyle geliştirilen yönetim paneli a
 
 ---
 
-## 📈 Model Varsayımları & Kapsam Sınırları
+## Model Varsayımları & Kapsam Sınırları
 * **Sabit Tedarik Süresi (Constant Lead Time):** Modelde talep olasılıksal (normal dağılımlı) olarak modellenirken, tedarikçilerin teslim süresi ($L$) deterministik kabul edilmiştir. Tedarik süresi varyansı ($\sigma_L$) veri seti kapsamı dışındadır.
 * **Fiziksel Stok Odağı (On-Hand Inventory):** Sipariş tetikleme kuralları mevcut depo stoğu üzerinden çalışmaktadır; yoldaki açık siparişler (*On-Order / In-Transit*) ve tedarikçi minimum sipariş miktarı (*MOQ*) kısıtları dahil edilmemiştir.
 
@@ -87,17 +87,14 @@ Proje kapsamında **Dark/Modern UI** konseptiyle geliştirilen yönetim paneli a
 ├── stok_verisi.csv              # 12 aylık ham talep ve operasyon parametre verisi
 ├── stok_analizi_sonuc.csv       # Hesaplanmış segmentler, ROP ve sipariş karar tablosu
 └── README.md                    # Proje teknik dokümantasyonu
-
-Python ortamında veri analizi ve ROP hesaplamalarını çalıştırmak için gerekli kütüphaneleri yükleyin:
-
-Bash
+```
+## 🚀 Kurulum & Çalıştırma
+```bash
 pip install pandas numpy
-Modelleme betiğini çalıştırmak ve sonuç CSV dosyasını güncellemek için:
-
-Bash
 python calculate_rop.py
-İnteraktif görselleştirmeleri ve DAX ölçülerini incelemek için Stok_Karar_Destek.pbix dosyasını Power BI Desktop ile açmanız yeterlidir.
+```
+İnteraktif görselleştirmeleri ve DAX ölçülerini incelemek için `Stok_Karar_Destek.pbix` dosyasını Power BI Desktop ile açman yeterli.
 
-
-Ahmet Cenk Semerci
+---
+**Ahmet Cenk Semerci**
 Endüstri Mühendisi | Üretim Planlama, Lojistik & Veri Analitiği
