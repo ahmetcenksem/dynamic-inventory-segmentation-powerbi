@@ -1,16 +1,16 @@
-SKU,Urun_Adi,Kategori,Birim_Maliyet_TL,Tedarik_Suresi_Gun,Mevcut_Stok,Toplam_Talep,Toplam_Ciro,ABC_Sinifi,CV,XYZ_Sinifi,Segment,Emniyet_Stogu,ROP,Siparis_Durumu,Onerilen_Siparis_Miktari
-P101,Rulman 6204,Mekanik,450,14,120,2490,1120500,A,0.05,X,AX,9,105,Stok Yeterli,0
-P102,Hidrolik Valf,Hidrolik,1850,25,30,631,1167350,A,0.11,X,AX,5,48,Siparis Ver,42
-P103,Servo Motor 1kW,Elektrik,4200,30,8,186,781200,B,0.43,Y,BY,9,24,Siparis Ver,28
-P104,Basinc Sensoru,Otomasyon,950,10,95,1185,1125750,A,0.20,X,AX,16,49,Stok Yeterli,0
-P105,PLC Modulu,Otomasyon,3100,21,12,176,545600,B,0.52,Z,BZ,12,22,Siparis Ver,21
-P106,Pnomatik Silindir,Pnomatik,680,12,140,1360,924800,A,0.03,X,AX,3,48,Stok Yeterli,0
-P107,Triger Kayis,Mekanik,180,7,450,3835,690300,B,0.02,X,BX,4,78,Stok Yeterli,0
-P108,Konveyor Bant Rulosu,Mekanik,1200,20,15,250,300000,C,0.25,Y,CY,7,21,Siparis Ver,17
-P109,Enduktif Sensor,Otomasyon,260,10,210,1460,379600,C,0.26,Y,CY,31,71,Stok Yeterli,0
-P110,Yag Filtresi,Sarf,85,5,80,1804,153340,C,0.02,X,CX,3,28,Stok Yeterli,0
-P111,Sizdirmazlik Contasi,Sarf,25,4,800,6195,154875,C,0.02,X,CX,7,75,Stok Yeterli,0
-P112,Grafit Kece,Sarf,60,7,250,2470,148200,C,0.18,X,CX,26,73,Stok Yeterli,0
-P113,Ozel Alasim Disli,Mekanik,2400,45,4,38,91200,C,0.92,Z,CZ,7,12,Siparis Ver,14
-P114,Optik Okuyucu,Otomasyon,1650,15,18,168,277200,C,0.09,X,CX,2,9,Stok Yeterli,0
-P115,M12 Celik Civata Paket,Baglanti,40,3,1200,4180,167200,C,0.36,Y,CY,84,118,Stok Yeterli,0
+﻿SKU,Urun_Adi,Kategori,Birim_Maliyet_TL,Tedarik_Suresi_Gun,Mevcut_Stok,Toplam_Talep,Toplam_Ciro,ABC_Sinifi,CV,XYZ_Sinifi,Segment,Emniyet_Stogu,ROP,Siparis_Durumu,Onerilen_Siparis_Miktari
+P101,Rulman 6204,Mekanik,450,14,120,2480,1116000,A,0.05,X,AX,12,108,Stok Yeterli,0
+P102,Hidrolik Valf,Hidrolik,1850,25,30,630,1165500,A,0.1,X,AX,8,52,Siparis Ver,74
+P103,Servo Motor 1kW,Elektrik,4200,30,8,171,718200,A,0.44,Y,AY,11,26,Siparis Ver,44
+P104,Basinc Sensoru,Otomasyon,950,10,95,1185,1125750,A,0.21,Y,AY,20,53,Stok Yeterli,0
+P105,PLC Modulu,Otomasyon,3100,21,12,186,576600,B,0.5,Z,BZ,11,22,Siparis Ver,32
+P106,Pnomatik Silindir,Pnomatik,680,12,140,1350,918000,A,0.03,X,AX,4,49,Stok Yeterli,0
+P107,Triger Kayis,Mekanik,180,7,450,3835,690300,A,0.02,X,AX,5,79,Fazla Stok,0
+P108,Konveyor Bant Rulosu,Mekanik,1200,20,15,250,300000,B,0.26,Y,BY,8,22,Siparis Ver,29
+P109,Enduktif Sensor,Otomasyon,260,10,210,1445,375700,B,0.28,Y,BY,32,72,Stok Yeterli,0
+P110,Yag Filtresi,Sarf,85,5,80,1800,153000,C,0.02,X,CX,3,28,Stok Yeterli,0
+P111,Sizdirmazlik Contasi,Sarf,25,4,800,6190,154750,C,0.02,X,CX,6,74,Fazla Stok,0
+P112,Grafit Kece,Sarf,60,7,250,2480,148800,C,0.19,X,CX,32,80,Fazla Stok,0
+P113,Ozel Alasim Disli,Mekanik,2400,45,4,35,84000,C,0.99,Z,CZ,6,11,Siparis Ver,18
+P114,Optik Okuyucu,Otomasyon,1650,15,18,168,277200,B,0.08,X,BX,2,9,Stok Yeterli,0
+P115,M12 Celik Civata Paket,Baglanti,40,3,1200,4130,165200,C,0.42,Y,CY,75,109,Fazla Stok,0
