@@ -10,7 +10,7 @@ Bu proje, imalat ve yedek parça operasyonlarında stok optimizasyonu, sermaye v
 Geleneksel stok yönetimi yaklaşımları genellikle tüm ürün çeşitlerine (SKU) tek tip stok kontrol kuralları uygular. Bu durum iki temel operasyonel soruna yol açar:
 * **Sermaye Bağlanması & Fazla Stok (Overstock):** Düşük maliyetli veya düzenli talep gören ürünlerde ROP eşiğinin belirgin biçimde üzerinde kontrolsüz stok birikmesi.
 * **Stoksuz Kalma (Stockout) Riski:** Yüksek cirolu kritik bileşenlerde tedarik süresi (*Lead Time*) ve talep dalgalanmalarının dikkate alınmaması sonucu yaşanan hat duruşları.
-* ** Hedef:** **%95 hizmet seviyesi** ($Z = 1.65$) korunurken, sipariş süreçlerini ROP tabanlı otomatik karar kurallarına bağlamak, aşırı stok birikimlerini tespit etmek ve satın alma/planlama ekiplerine tek ekranda karar desteği sağlamak.
+* **Hedef:** **%95 hizmet seviyesi** ($Z = 1.65$) korunurken, sipariş süreçlerini ROP tabanlı otomatik karar kurallarına bağlamak, aşırı stok birikimlerini tespit etmek ve satın alma/planlama ekiplerine tek ekranda karar desteği sağlamak.
 
 ---
 
@@ -88,12 +88,13 @@ Proje kapsamında **Dark/Modern UI** konseptiyle geliştirilen yönetim paneli a
 ├── stok_analizi_sonuc.csv       # Hesaplanmış segmentler, ROP ve sipariş karar tablosu
 └── README.md                    # Proje teknik dokümantasyonu
 ```
+
 ## Kurulum & Çalıştırma
 ```bash
 pip install pandas numpy
 python calculate_rop.py
 ```
-İnteraktif görselleştirmeleri ve DAX ölçülerini incelemek için `Stok_Karar_Destek.pbix` dosyasını Power BI Desktop ile açman yeterli.
+İnteraktif görselleştirmeleri ve DAX ölçülerini incelemek için `Stok_Karar_Destek.pbix` dosyasını Power BI Desktop ile açmanız yeterlidir.
 
 ---
 **Ahmet Cenk Semerci**
